@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 35%;
+    background-color: #2c6c68;
+    padding: 20px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 span {
+    display: block;
+    font-weight: 700;
+}
+
+.rol {
+    text-align: center;
+    font-size: 16px;
+    color: #aad2ce;
+    margin-bottom: 30px;
+}
+
+.educacion, .skills {
+    margin-bottom: 20px;
+}
+
+.skills h3, .educacion h3, .contacto h3, .introduccion h3, .experiencia h3, .logros h3 {
+    color: #18a795;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.bar {
+    background-color: #ddd;
+    height: 6px;
+    border-radius: 4px;
+}
+
+.level {
+    background-color: #18a795;
+    height: 6px;
+    border-radius: 4px;
+}
+
+.main-content {
+    width: 65%;
+    padding: 20px;
+}
+
+.contacto p, .introduccion p, .experiencia p, .logros p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.experiencia {
+    margin-bottom: 15px;
+}
+
+.contacto p {
+    margin-bottom: 8px;
+}
+
+.introduccion, .logros, .experiencia {
+    margin-bottom: 20px;
+}
+
+
+/* Estilo de los iconos de redes sociales */
+.social {
+    margin-top: 15px;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icono:hover {
+    transform: scale(1.1);
+}
